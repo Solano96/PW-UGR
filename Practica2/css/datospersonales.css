@@ -1,0 +1,80 @@
+
+
+
+ fieldset{
+ 	float: left;
+ 	width: 45%;
+ }
+ 
+#formulario-alta{
+	margin: 30px 200px 30px 150px;
+}
+
+#formulario-alta p{
+	display: table-row;
+	line-height: 40px;
+}
+
+#formulario-alta label{
+	text-align: right;
+	display: table-cell; 
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#formulario-alta input[type="text"]{
+	margin-left: 20px;
+	padding-left: 5px;
+	display: table-cell;
+	height: 20px;
+	width: 200px;
+	background-color: white;
+}
+
+#formulario-alta input[type="password"]{
+	margin-left: 20px;
+	padding-left: 5px;
+	display: table-cell;
+	height: 20px;
+	width: 200px;
+	background-color: white;
+}
+
+.elegir-pais{
+	margin-left: 20px;
+	padding-left: 5px;
+	display: table-cell;
+	height: 25px;
+	width: 210px;
+	background-color: white;
+}
+
+.column-3 {
+	background-color: white;
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+
+.data-title{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 30px 20px 20px 100px;
+}
+
+.subir-datos{
+	float: right;
+	font-weight: bold;
+	height:30px;
+	margin-right: 70px;
+	margin-top:10px;
+	background-image: linear-gradient(#44aeff, #004b84);
+	color:white;
+	border:1px solid white;
+}
+
+.subir-datos:hover{
+	background-image: linear-gradient(#88ccff, #334b84);
+}

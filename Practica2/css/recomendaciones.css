@@ -1,0 +1,33 @@
+
+.card-book-recommendation{
+	float: left;
+	margin: 10px 20px 15px 20px;
+	width: calc(20% - 40px);  
+	height: 380px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    text-decoration: none;
+    color: #1c1c1c
+}
+
+.card-book-recommendation:hover{
+	box-shadow: 0 8px 16px 0 rgba(12, 59, 135,0.9);
+}
+
+
+.card-book-recommendation img{
+	height: 260px;
+	width: calc(100%);
+}
+
+.card-book-recommendation-container{
+	padding: 5px 10px 5px 10px;
+}
+
+
+.title-recommendation{
+	color: #1c1c1c;
+  	font-size: 1.8em;
+  	padding-bottom:10px ;
+    border-bottom: #1c1c1c 1px solid;
+}

@@ -1,0 +1,109 @@
+
+.libro_leido{
+	text-decoration: underline;
+}
+
+.imagen_libro_leido{
+	margin: 20px;
+	border-radius: 10px;
+	float: left;
+}
+
+.book_information{	
+	list-style-type: none;
+	margin: 20px;
+}
+
+
+
+.book{	
+	margin: 10px 15px 5px 30px;
+	border-radius: 2px;
+	display: inline-block;
+	text-align: left;
+	width: 100%;	
+}
+
+.book img{
+	float:left;
+	height: 250px;
+	margin: 10px 10px 10px 10px;
+}
+
+.book ul{
+	float: left;
+}
+
+.book li{	
+	font-size: 1.5em;
+	list-style-type:none;
+}
+
+
+.section_area{
+	margin: 30px;
+}
+
+.section_title{
+	color: #1c1c1c;
+	padding: 0 0 0 10px;	
+  	border-bottom:1px solid #1c1c1c;
+  	font-size: 1.1em;
+}
+
+
+.section_content{
+	text-align: justify;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.ec-stars-wrapper {
+
+	margin-left: 40px;
+	margin-right: 40px
+
+	font-size: 0;
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+
+.ec-stars-wrapper-fix {
+
+	margin-left: 40px;
+	margin-right: 40px
+
+	font-size: 0;
+	display: inline-block;
+}
+
+.ec-stars-wrapper-fix a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper-fix a.active{
+	color: #e07000;
+}
+

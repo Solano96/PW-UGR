@@ -1,0 +1,86 @@
+section.stars{
+	display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+}
+
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color:  #e07000;
+}
+
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+
+#alta_libro{
+	color:black;
+	width: 100%;
+	text-align: left;
+}
+
+
+.datos_libro{	
+	display: inline-block;
+	text-align: left;	
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+}
+
+.datos_libro img{
+	float:left;
+	height: 100px;
+	margin: 20px 10px 10px 10px;
+}
+
+.linea_etiqueta{
+display:inline-block;
+width:90px;
+margin-right:30px;
+text-align:right;
+}
+
+.formulario{
+margin-top: 20px;
+border:none;
+}
+
+#titulo_alta_libro{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #275196;
+}
+
+#alta_libro input[type="submit"]{
+	font-weight: bold;
+	height:25px;
+	margin-top:22px;
+	background-image: linear-gradient(#44aeff, #004b84);
+	color:white;
+	border:1px solid white;
+}
+
+#alta_libro input[type="submit"]:hover{
+	background-image: linear-gradient(#88ccff, #334b84);
+}
+
+.linea_input{
+	width: 200px;
+}
+
+.select_editorial{
+	width: 200px;
+	background-color: white;
+}
+
+#dar_alta_libro{
+	float: right;
+}
